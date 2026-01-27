@@ -1,9 +1,11 @@
 import java.util.Scanner;
 
 public class Registration {
-    public static void main(String[] args) {
+
+    public static User register() {
 
         Scanner input = new Scanner(System.in);
+        User user = new User();
 
         System.out.println("******** Welcome to the Registration Portal 🎉 ********\n");
 
@@ -47,9 +49,15 @@ public class Registration {
             System.out.println("Registration is only available for Rwanda ❌");
         }
         else {
+            user.username = username;
+            user.age = age;
+            user.country = countryInput;
+            user.password = password;
             System.out.println("Registration successful ✅ Welcome, " + username + "!");
+            return user;
         }
 
         input.close();
+        return null;
     }
 }
