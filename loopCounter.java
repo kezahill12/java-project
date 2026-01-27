@@ -56,7 +56,7 @@ public class loopCounter {
     }
     public static void main(String[] args) {
 
-        int option = 3;
+        int option = 2;
         int start = 1;
         int end = 10;
 
