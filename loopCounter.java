@@ -59,7 +59,6 @@ public class loopCounter {
         int option = 2;
         int start = 1;
         int end = 10;
-
         loopSelector(option, start, end);
     }
 }
