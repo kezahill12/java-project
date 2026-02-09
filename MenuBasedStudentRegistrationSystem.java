@@ -18,7 +18,7 @@ public class StudentRegistrationSystem {
             System.out.print("Choose an option: ");
 
             int choice = input.nextInt();
-            input.nextLine(); // clear buffer
+            input.nextLine();
 
             switch (choice) {
                 case 1:
