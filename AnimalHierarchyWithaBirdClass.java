@@ -78,7 +78,6 @@ class Birds extends Animal{
 
     @Override
     public void makeSound(){
-        System.out.println("Bird " + getName() +
-                           " says: " + getSound() + fly());
+        System.out.println("Bird " + getName() +" says: " + getSound() + fly());
     }
 }
