@@ -9,7 +9,11 @@ public class Main {
         integerStorage.setItem(42);
         System.out.println("Integer Storage: " + integerStorage.getItem());
 
-        NumberStorage<Dounble> doubleStorage = new NumberStorage<>();
+        NumberStorage<Integer> intNum = new NumberStorage<>(5);
+        System.out.println(intNum.square());
+        NumberStorage<Double> doubleNum = new NumberStorage<>(2.5);
+        System.out.println(doubleNum.square());
+
     }
 }
 
