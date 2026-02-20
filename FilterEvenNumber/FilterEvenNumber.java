@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class EvenNumberFilter {
+public class FilterEvenNumber {
 
     public static List<Integer> filterEvenNumbers(List<Integer> numbers) {
         
